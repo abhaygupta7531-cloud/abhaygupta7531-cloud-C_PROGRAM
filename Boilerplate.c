@@ -9,11 +9,11 @@
  // The line tells the compiler: "Bring the standard input/output library so i can use printf,scanf,"
 
  int main (){
-  //This is the main function of this program
+    //This is the main function of this program
 
- printf("Hello world");
+    printf("Hello world");
 
- return 0;
- //sends the value back,0 means success,no errors
+    return 0;
+    //sends the value back,0 means success,no errors
 
 }
