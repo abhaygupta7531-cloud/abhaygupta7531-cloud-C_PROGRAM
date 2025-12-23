@@ -7,7 +7,7 @@ int main() {         // 2. Main function starts
     a = 10;          // 4. Program body (logic)
     b = 20;
 
-    printf("Sum = %d", a + b);
+    printf("Sum = %d \n", a + b);
 
     return 0;        // 5. Program ends
 }
