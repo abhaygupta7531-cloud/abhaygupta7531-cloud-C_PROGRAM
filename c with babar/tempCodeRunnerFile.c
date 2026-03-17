@@ -1,20 +1,15 @@
-#include <stdio.h>
-   int main(){
+#include<stdio.h>
+int main()
+{
+//int num;
+//printf("Enter Number:- ");
+//scanf("%d",&num);
 
-       char n ;
-
-       printf("Value of char");
-       scanf("%c",&n);
-
-       if(n>='a'&& n<='z'){
-        printf("This is a lower case\n");
-       }
-       else if(n>='1' && n<='9'){
-        printf("this is numaric number\n");
-       }
-       else if(n>='A' && n<='Z'){
-        printf("this is a upper case\n"); 
-
-       }
-    return 0;
-   }
+int i;
+for(i = 10; i >= 1; i--){
+    printf("\n%d",i);
+    //if(i % 2 == 0){
+    //    printf("%d\n",i);
+    //}
+}
+}

@@ -1,13 +1,18 @@
+
+#include<stdio.h>
 int main(){
-    int length,breadth;
+    int n;
 
-    printf("Enter length\n");
-    scanf("%d",&length);
+    printf("enter number");
+    scanf("%d",&n);
+   int i=1;
 
-    printf("Enter breadth\n");
-    scanf("%d", &breadth);
+    while(i<=n){
+          printf("%d\n",i);
+          i++;
+    }
 
-    printf("THe are of rectangle is %d", length*breadth);
 
-    return 0;
+
+
 }
